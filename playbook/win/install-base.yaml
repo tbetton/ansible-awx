@@ -1,6 +1,6 @@
 ---
  - name: Playbook to install tools
-   hosts: debian
+   hosts: all
    become: true
    tasks:
     - name: Install Tools
