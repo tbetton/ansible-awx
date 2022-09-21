@@ -1,0 +1,11 @@
+---
+ - name: Playbook to install tools
+   hosts: debian
+   become: true
+   tasks: 
+    - name: Ansible apt install tools
+      apt:
+        name: 
+          - net-tools
+          - nfs-common
+        state: present
