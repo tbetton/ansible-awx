@@ -1,6 +1,5 @@
 ---
  - name: Playbook to install tools
-   hosts: all
    tasks:
     - name: Install Tools
       win_chocolatey:
