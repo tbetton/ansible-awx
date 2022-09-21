@@ -1,6 +1,11 @@
- - name: Install Tools
-   win_chocolatey:
-     name: 
-      - git
-      - notepadplusplus
-     state: present
+---
+ - name: Playbook to install tools
+   hosts: debian
+   become: true
+   tasks:
+    - name: Install Tools
+      win_chocolatey:
+       name: 
+        - git
+        - notepadplusplus
+       state: present
