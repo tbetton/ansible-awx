@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\playbook",
+    "\\playbook\\deb",
+    "\\playbook\\win"
   ],
-  "SelectedNode": "\\C:\\Users\\tbetton\\Source\\Repos\\tbetton\\ansible-awx",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
