@@ -1,0 +1,7 @@
+
+ - name: Install Tools
+   win_chocolatey:
+     name: 
+      - git
+      - notepadplusplus
+     state: present
