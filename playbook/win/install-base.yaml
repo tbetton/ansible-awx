@@ -7,4 +7,9 @@
        name: 
         - git
         - notepadplusplus
+        - 7zip
+        - putty
+        - winscp
+        - googlechrome
+        - azure-cli
        state: present
