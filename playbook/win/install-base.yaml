@@ -11,4 +11,5 @@
         - winscp
         - googlechrome
         - azure-cli
+        - filezilla
        state: present
